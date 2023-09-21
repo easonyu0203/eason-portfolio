@@ -11,7 +11,6 @@
   let isCurrentPage = false;
 
   $: if ($page.url.pathname === href) {
-    console.log($page.url.pathname);
     underlineValue.set(1);
     isCurrentPage = true;
   } else {
@@ -28,10 +27,10 @@
 >
   <span
     class={` text-primary text-xl font-semibold ${
-      isCurrentPage ? " font-extrabold" : ""
+      isCurrentPage ? " font-extrabold" : " opacity-80"
     }`}>#</span
   >
-  <span class={`${isCurrentPage ? "font-bold" : ""}`}>
+  <span class={`${isCurrentPage ? "font-bold" : "opacity-80"}`}>
     <slot />
   </span>
   <div class={`absolute bottom-[4px] left-0 w-full h-1 `}>

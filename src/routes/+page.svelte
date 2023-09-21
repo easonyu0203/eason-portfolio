@@ -1,4 +1,7 @@
 <script lang="ts">
-  import FilledLogo from "$lib/svgs/FilledLogo.svelte";
-  import Logo from "$lib/svgs/Logo.svelte";
+  import Hero from "$lib/components/home/Hero.svelte";
 </script>
+
+<div class=" flex min-h-[550vh] max-w-[100vw] flex-col justify-start">
+  <Hero />
+</div>
