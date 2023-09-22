@@ -27,7 +27,9 @@
 >
   <span
     class={` text-primary text-xl font-semibold ${
-      isCurrentPage ? " font-extrabold" : " opacity-80"
+      isCurrentPage
+        ? " font-extrabold brightness-100 contrast-100"
+        : " opacity-80"
     }`}>#</span
   >
   <span class={`${isCurrentPage ? "font-bold" : "opacity-80"}`}>

@@ -19,7 +19,7 @@
   />
 </svelte:head>
 
-<div data-theme="dark" class=" container m-auto py-2">
+<div data-theme="dark" class=" container m-auto p-4">
   <NavBar />
   <slot />
 </div>
