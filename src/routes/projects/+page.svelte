@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { PageData } from "./$types";
+  import selfy from "$lib/images/selfy.png";
 
   export let data: PageData;
 </script>
@@ -20,11 +21,8 @@
     <div
       class="card w-96 bg-base-100 shadow-xl border-primary-content border-opacity-50 border-[1px] rounded-none"
     >
-      <figure>
-        <img
-          src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-          alt="Shoes"
-        />
+      <figure class=" max-h-60">
+        <img src={selfy} alt="Shoes" />
       </figure>
       <div class="card-body">
         <h2 class="card-title">
