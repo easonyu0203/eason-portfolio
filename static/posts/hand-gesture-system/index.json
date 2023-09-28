@@ -1,0 +1,17 @@
+{
+  "title": "Hand Gesture Recognition",
+  "links": [
+    {
+      "title": "code base",
+      "link": "https://github.com/easonyu0203/hand-gesture-recognition",
+      "icon": "github"
+    },
+    {
+      "title": "demo video",
+      "link": "https://www.youtube.com/watch?v=jYYqw90qabE",
+      "icon": "youtube"
+    }
+  ],
+  "date": "2022-08-01",
+  "tags": ["Machine Learning", "Python", "OpenCV", "Pytorch"]
+}

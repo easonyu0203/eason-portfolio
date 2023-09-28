@@ -1,8 +1,6 @@
-# Hand Gesture Recognition
-
 Leveraging the capabilities of PyTorch and Google Media Pipeline Holistic, this project is designed to identify different hand gestures, by creating a pipeline starting from data generation to model training, and concluding with a real-time demonstration.
 
-![demo picture](/src/posts/hand-gesture-system/demo.png)
+![demo picture](/posts/hand-gesture-system/demo.png)
 
 ## Description 📑
 
