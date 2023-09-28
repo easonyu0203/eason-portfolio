@@ -13,5 +13,7 @@
     }
   ],
   "date": "2022-08-01",
-  "tags": ["Machine Learning", "Python", "OpenCV", "Pytorch"]
+  "tags": ["Machine Learning", "Python", "Pytorch", "OpenCV"],
+  "intro": "A hand gestures recognition system for data generation and model training.",
+  "thumbnail": "/posts/hand-gesture-system/banner.png"
 }

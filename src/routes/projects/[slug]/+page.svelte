@@ -3,7 +3,6 @@
   import type { PageData } from "../$types";
 
   export let data: PageData;
-  console.log(data);
 </script>
 
 <article class="prose m-auto py-12 max-w-2xl">

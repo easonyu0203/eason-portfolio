@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { PageData } from "./$types";
   import selfy from "$lib/images/selfy.png";
+  import ProjectCard from "$lib/components/projects/ProjectCard.svelte";
 
   export let data: PageData;
 </script>
@@ -13,28 +14,19 @@
     <div>Some of my proudest projects</div>
   </div>
 
-  <div>
+  <div class=" flex flex-col space-y-6">
     <div class=" brightness-125 contrast-125 font-semibold text-3xl">
       <span class=" text-primary mr-1">#</span>side-projects
     </div>
 
-    <div
-      class="card w-96 bg-base-100 shadow-xl border-primary-content border-opacity-50 border-[1px] rounded-none"
-    >
-      <figure class=" max-h-60">
-        <img src={selfy} alt="Shoes" />
-      </figure>
-      <div class="card-body">
-        <h2 class="card-title">
-          Shoes!
-          <div class="badge badge-secondary">NEW</div>
-        </h2>
-        <p>If a dog chews shoes whose shoes does he choose?</p>
-        <div class="card-actions justify-end">
-          <div class="badge badge-outline">Fashion</div>
-          <div class="badge badge-outline">Products</div>
-        </div>
-      </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
+      {#each data.posts as post}
+        <ProjectCard slug={post.name} />
+        <ProjectCard slug={post.name} />
+        <ProjectCard slug={post.name} />
+        <ProjectCard slug={post.name} />
+        <ProjectCard slug={post.name} />
+      {/each}
     </div>
   </div>
 </div>

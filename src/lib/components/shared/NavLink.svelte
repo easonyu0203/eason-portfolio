@@ -10,7 +10,10 @@
   });
   let isCurrentPage = false;
 
-  $: if ($page.url.pathname === href) {
+  $: if (
+    (href == "/" && $page.url.pathname === href) ||
+    (href != "/" && $page.url.pathname.includes(href))
+  ) {
     underlineValue.set(1);
     isCurrentPage = true;
   } else {
