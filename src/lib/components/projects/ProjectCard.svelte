@@ -1,7 +1,8 @@
 <script lang="ts">
-  import { onMount } from "svelte";
+  import { fly } from "svelte/transition";
 
   export let slug: string;
+  export let delay: number;
 
   let info = fetch(`/posts/${slug}/index.json`).then((r) =>
     r.json()
@@ -12,6 +13,7 @@
   <div>place holder</div>
 {:then data}
   <a
+    transition:fly={{ x: 300, duration: 600, delay }}
     href={`/projects/${slug}`}
     class="card hover:scale-105 duration-200 bg-base-100 shadow-xl border-primary-content border-opacity-50 border-[1px] rounded-none"
   >

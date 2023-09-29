@@ -1,6 +1,6 @@
 [
-  { "name": "hand-gesture-system" },
-  { "name": "mocap-in-a-budget" },
-  { "name": "NTMoFA-collection" },
-  { "name": "cmoney-recruitment" }
+  { "name": "hand-gesture-system", "type": "side-project" },
+  { "name": "mocap-in-a-budget", "type": "side-project" },
+  { "name": "NTMoFA-collection", "type": "work-project" },
+  { "name": "cmoney-recruitment", "type": "work-project" }
 ]
