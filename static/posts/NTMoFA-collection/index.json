@@ -1,0 +1,35 @@
+{
+  "title": "Boost Workflow at NTMoFA 🖼️",
+  "links": [
+    {
+      "title": "backend codebase",
+      "link": "https://github.com/easonyu0203/arty-demo-bd",
+      "icon": "mdi:github"
+    },
+    {
+      "title": "frontend codebase",
+      "link": "https://github.com/easonyu0203/arty-demo-fd",
+      "icon": "mdi:github"
+    },
+    {
+      "title": "official news",
+      "link": "https://www.ntmofa.gov.tw/News_Content.aspx?n=1384&s=143081",
+      "icon": "tabler:news"
+    },
+    {
+      "title": "mobile demo video",
+      "link": "https://youtube.com/shorts/grroTofXZLo",
+      "icon": "mdi:youtube"
+    }
+  ],
+  "date": "2022-08-01",
+  "tags": [
+    "Machine Learning",
+    "Backend Developement",
+    "Huggingface",
+    "Sveltekit",
+    "FastAPI"
+  ],
+  "intro": "Internal tool designed to optimize workflow at the National Taiwan Museum of Fine Arts.",
+  "thumbnail": "/posts/NTMoFA-collection/thumbnail.png"
+}

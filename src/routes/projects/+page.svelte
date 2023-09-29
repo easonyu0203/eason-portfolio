@@ -22,10 +22,6 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
       {#each data.posts as post}
         <ProjectCard slug={post.name} />
-        <ProjectCard slug={post.name} />
-        <ProjectCard slug={post.name} />
-        <ProjectCard slug={post.name} />
-        <ProjectCard slug={post.name} />
       {/each}
     </div>
   </div>

@@ -40,7 +40,7 @@
         <div class=" w-4 h-4 bg-secondary" />
         <div>
           Currently working on <span class=" text-primary-content font-bold"
-            >startup</span
+            >Portfolio</span
           >
         </div>
       </div>
@@ -66,9 +66,11 @@
       I make my idea come true using the tools I learned
     </div>
 
-    <button
-      class=" mt-8 btn btn-outline btn-primary text-lg rounded-none border-2 brightness-150 contrast-150"
-      >Colab with me!!</button
-    >
+    <a href="/projects">
+      <button
+        class=" mt-8 btn btn-outline btn-primary text-lg rounded-none border-2 brightness-150 contrast-150"
+        >Checkout my works!!</button
+      >
+    </a>
   </div>
 </div>

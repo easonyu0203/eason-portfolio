@@ -22,7 +22,7 @@
       <div class=" flex flex-col items-center justify-center space-y-2">
         <a href={link.link} target="_blank">
           <button class="btn btn-circle btn-outline"
-            ><Icon icon="mdi:{link.icon}" width="32" /></button
+            ><Icon icon={link.icon} width="32" /></button
           >
         </a>
 

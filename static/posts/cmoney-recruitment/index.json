@@ -1,0 +1,14 @@
+{
+  "title": "CMoney Recruitment Backend",
+  "links": [
+    {
+      "title": "CMoney Website",
+      "link": "https://www.cmoney.tw/app/",
+      "icon": "gg:website"
+    }
+  ],
+  "date": "2022-08-01",
+  "tags": ["Backend Development", "ASP.NET"],
+  "intro": "A Journey from Intern to Production Developer",
+  "thumbnail": "/posts/cmoney-recruitment/thumbnail.png"
+}

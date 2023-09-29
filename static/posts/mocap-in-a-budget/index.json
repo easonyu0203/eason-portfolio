@@ -1,0 +1,31 @@
+{
+  "title": "MoCap in a budget",
+  "links": [
+    {
+      "title": "backend codebase",
+      "link": "https://github.com/easonyu0203/lotpose_bd",
+      "icon": "mdi:github"
+    },
+    {
+      "title": "frontend codebase",
+      "link": "https://github.com/easonyu0203/lotpose_fd_2",
+      "icon": "mdi:github"
+    },
+    {
+      "title": "system demo",
+      "link": "https://youtu.be/N-1V1rF-fVI",
+      "icon": "mdi:youtube"
+    }
+  ],
+  "date": "2023-03-01",
+  "tags": [
+    "Machine Learning",
+    "web Development",
+    "PyTorch",
+    "SvelteKit",
+    "FastAPI",
+    "OpenCV"
+  ],
+  "intro": "A user-friendly and affordable way to capture motion, using simple cameras from phones and webcams.",
+  "thumbnail": "/posts/mocap-in-a-budget/thumbnail.png"
+}

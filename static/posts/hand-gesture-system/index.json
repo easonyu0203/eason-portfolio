@@ -4,12 +4,12 @@
     {
       "title": "code base",
       "link": "https://github.com/easonyu0203/hand-gesture-recognition",
-      "icon": "github"
+      "icon": "mdi:github"
     },
     {
       "title": "demo video",
       "link": "https://www.youtube.com/watch?v=jYYqw90qabE",
-      "icon": "youtube"
+      "icon": "mdi:youtube"
     }
   ],
   "date": "2022-08-01",
