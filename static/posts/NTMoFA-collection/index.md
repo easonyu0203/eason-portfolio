@@ -1,8 +1,6 @@
 ## **Introduction 🌟**
 
-**Project Name:** Interactive Engagement System for National Taiwan Museum of Fine Arts (NTMoFA)
-
-While serving as a Backend Developer and ML Engineer at Glowing MultiMedia Company, I had the wonderful opportunity to contribute to a unique and immersive event,「時代紀藝:國美 **35** 典藏精選展」, held at NTMoFA. Our vision was to amplify user engagement by allowing attendees to interact with the artwork in an innovative and educational manner, utilizing their mobile devices to delve deeper into each masterpiece.
+While serving as a Web Developer and ML Engineer at Glowing MultiMedia Company, I had the wonderful opportunity to contribute to a unique and immersive event,「時代紀藝:國美 **35** 典藏精選展」, held at National Taiwan Museum of Fine Arts (NTMoFA). Our vision was to amplify user engagement by allowing attendees to interact with the artwork in an innovative and educational manner, utilizing their mobile devices to delve deeper into each masterpiece.
 
 ## **Problem Statement 🤔**
 
@@ -12,7 +10,7 @@ Our main challenge was the lengthy and inefficient iteration process. The museum
 
 ### **Objective:**
 
-To expedite the iteration process by developing a real-time, efficient, and user-friendly system enabling on-the-spot model testing and instant error reporting.
+To expedite the iteration process by developing a real-time system enabling on-the-spot model testing and instant error reporting.
 
 ## **Solution 🛠️**
 

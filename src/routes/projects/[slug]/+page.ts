@@ -9,6 +9,7 @@ export const load: PageLoad = async ({ fetch, params: { slug } }) => {
 
   const content = marked(await contentRes.text());
   const info = (await infoRes.json()) as ProjectInfoData;
+  const data = { content, info };
 
-  return { content, info };
+  return data;
 };
