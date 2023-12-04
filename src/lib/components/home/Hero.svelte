@@ -77,7 +77,7 @@
       Eason is a <span class=" font-bold text-primary opacity-90"
         >Software Developer</span
       >
-      specialize in
+      specializing in
       <span class=" font-bold text-secondary opacity-90">Machine Learning</span>
       and
       <span class=" font-bold text-secondary opacity-90"
