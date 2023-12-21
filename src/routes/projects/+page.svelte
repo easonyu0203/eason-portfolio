@@ -34,7 +34,7 @@
 
   <div class=" flex flex-col space-y-6">
     <div class=" brightness-125 contrast-125 font-semibold text-3xl">
-      <span class=" text-primary mr-1">#</span>side-projects
+      <span class=" text-primary mr-1">#</span>work-projects
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
