@@ -86,7 +86,7 @@
     </h1>
 
     <div class=" text-lg mt-8">
-      I make my idea come true using the tools I learned
+      <!-- I make my idea come true using the tools I learned -->
     </div>
 
     <a bind:this={actionBtnRef} href="/projects">
