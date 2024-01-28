@@ -19,7 +19,7 @@
       title="Curriculum Vitae"
     >
       This browser does not support PDFs. Please download the PDF to view it:
-      <a href="/cv.pdf">Download PDF</a>.
+      <a href="/CV.pdf">Download PDF</a>.
     </iframe>
   </div>
 </div>
