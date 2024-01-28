@@ -10,7 +10,8 @@
 </script>
 
 <div
-  transition:fade={{ duration: 200 }}
+  in:fade={{ duration: 200, delay: 100 }}
+  out:fade={{ duration: 100 }}
   class=" flex flex-col space-y-16 py-8 pb-16"
 >
   <div class="space-y-4">

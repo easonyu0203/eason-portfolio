@@ -4,7 +4,8 @@
 </script>
 
 <div
-  transition:fade={{ duration: 200 }}
+  in:fade={{ duration: 200, delay: 100 }}
+  out:fade={{ duration: 100 }}
   class=" flex min-h-[100vh] max-w-[100vw] flex-col justify-start"
 >
   <Hero />

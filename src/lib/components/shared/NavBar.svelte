@@ -17,6 +17,7 @@
     <ul class="menu menu-horizontal px-1">
       <li><NavLink href="/">Home</NavLink></li>
       <li><NavLink href="/projects">Projects</NavLink></li>
+      <li><NavLink href="/cv">CV</NavLink></li>
       <!-- <li><NavLink href="/achievements">Achievements</NavLink></li>
       <li><NavLink href="/stories">Stories</NavLink></li>
       <li><NavLink href="/experiences">Experiences</NavLink></li> -->
