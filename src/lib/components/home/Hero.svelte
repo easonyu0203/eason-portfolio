@@ -79,10 +79,6 @@
       >
       specializing in
       <span class=" font-bold text-secondary opacity-90">Machine Learning</span>
-      and
-      <span class=" font-bold text-secondary opacity-90"
-        >Web/App Developement</span
-      >
     </h1>
 
     <div class=" text-lg mt-8">
